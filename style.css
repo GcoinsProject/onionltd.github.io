@@ -39,7 +39,7 @@
 }
 
 pre {
-    background-color:beige;
+    background-color:#F5F5F5;
     padding:10px;
 }
 
@@ -51,4 +51,17 @@ body {
     font-size:16px;
     font-family:sans-serif;
     color:#333;
+}
+
+h1, h2, h3 {
+    color:#C70036;
+}
+
+a {
+    color:#0035C7;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
 }
