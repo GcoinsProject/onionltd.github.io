@@ -52,3 +52,25 @@ a:hover {
 .search {
     text-align:right;
 }
+
+.status_beam {
+    border-radius:2px;
+    margin-bottom:0.10em;
+    margin-right:0.25em;
+    width:6px;
+    height:6px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.urls {
+    padding-left:5px;
+}
+
+.urls_url {
+    list-style:none;
+}
+
