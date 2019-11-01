@@ -21,11 +21,6 @@
     width:50%;
 }
 
-pre {
-    background-color:#F5F5F5;
-    padding:10px;
-}
-
 code {
     font-size:100%;
 }
@@ -72,5 +67,14 @@ a:hover {
 
 .urls_url {
     list-style:none;
+}
+
+.public_key {
+    margin-bottom:20px;
+}
+
+.public_key > textarea {
+    resize:none;
+    padding:10px;
 }
 
