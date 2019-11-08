@@ -79,12 +79,7 @@ pre {
 }
 
 .public_key {
-    margin-bottom:20px;
-}
-
-.public_key > textarea {
-    resize:none;
-    padding:10px;
+    margin-bottom:2.5em;
 }
 
 .muted {
