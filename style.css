@@ -32,11 +32,17 @@
 }
 
 body {
-    font-size:15px;
-    font-family:sans-serif;
-    color:#333;
-    width:55%;
-    margin:0 auto;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #333;
+    width: 55%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
 }
 
 h1, h2, h3 {
