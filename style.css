@@ -102,3 +102,9 @@ pre {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.warning {
+    padding:10px;
+    border:2px solid #C70036;
+    background-color:#FFBABA;
+}
