@@ -43,6 +43,7 @@
             )
         }
     </script>
+    
 </head>
 <body>
     
@@ -53,33 +54,37 @@
         <a href="/#services">Services</a>
         &nbsp;
         <a href="/tags">Tags</a>
+        &nbsp;
+        <a href="/download.html">Download</a>
     </div>
 
     <div class="search">
         <form action="/search.html">
-            <input type="text" name="q" value="" placeholder="Search">
+            <input type="text" name="q" value="" tabindex="1" placeholder="Search">
         </form>
     </div>
 </div>
 
 
     <div id="content">
-        <h1>Search results for '<span id="name"></span>'</h1>
+            <h1>Search results for '<span id="name"></span>'</h1>
 
-        <noscript>Sorry, search requires javascript.</noscript>
+            <noscript>Sorry, search requires javascript.</noscript>
 
-        <ul id="results"></ul>
+            <ul id="results"></ul>
+        
     </div>
 
     
 <div id="footer">
     <div>
-        <small><a href="/download.html" class="muted">Download</a></small>
-        &nbsp;
-       <small><a href="/api.html" class="muted">API</a></small>
+        <small class="muted">Last update: 2019-11-23 21:20:26 UTC</small>
+    </div>
+
+    <div class="minor_links">
+       <small><a href="/api.html">API</a></small>
     </div>
 </div>
-
 
     <script>
         
@@ -120,5 +125,6 @@
             });
         }
     </script>
+    
 </body>
 </html>
