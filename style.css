@@ -26,9 +26,19 @@
 }
 
 #footer {
+    display:flex;
+    height:2.5em;
+    line-height:2.5em;
     padding:5px;
-    text-align:right;
     margin-bottom:5px;
+}
+
+#footer > div {
+    width:50%;
+}
+
+#footer > .minor_links {
+    text-align:right;
 }
 
 body {
