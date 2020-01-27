@@ -67,6 +67,10 @@ a:hover {
     text-decoration:underline;
 }
 
+a h2:hover:after {
+    content:" #";
+}
+
 pre {
     width:100%;
     font-size:90%;
@@ -135,5 +139,9 @@ pre {
 
 .menu_link {
     padding-right:15px;
+}
+
+.nounderline {
+    text-decoration:none !important;
 }
 
