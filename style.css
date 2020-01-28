@@ -67,7 +67,15 @@ a:hover {
     text-decoration:underline;
 }
 
-a h2:hover:after {
+h2 a {
+    color:inherit;
+}
+
+h2 a:hover {
+    text-decoration:none;
+}
+
+h2 a:hover:after {
     content:" #";
 }
 
@@ -141,7 +149,9 @@ pre {
     padding-right:15px;
 }
 
-.nounderline {
-    text-decoration:none !important;
+.clearnet_warning {
+    color:orange;
+    font-weight:bold;
+    cursor:help;
 }
 
