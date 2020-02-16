@@ -84,15 +84,6 @@ pre {
     font-size:90%;
 }
 
-.search {
-    text-align:right;
-}
-
-.search input {
-    width:100%;
-    box-sizing:border-box;
-}
-
 .status_beam {
     border-radius:2px;
     margin-bottom:0.10em;
@@ -147,6 +138,7 @@ pre {
 
 .menu_link {
     padding-right:15px;
+    font-size:17px;
 }
 
 .clearnet_warning {
